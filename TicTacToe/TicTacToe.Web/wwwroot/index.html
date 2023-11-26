@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignalR TicTacToe</title>
+    <style>
+      /* Style the table to have square cells */
+      td {
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+      }
+      button {
+        height: 100%;
+        width: 100%;
+        font-size: 75px;
+        color: black;
+      }
+    </style>
+  <script defer src="/main.6f18c51bf107eb6fee91.js"></script></head>
+  <body>
+    <h1>SignalR TicTacToe</h1>
+    <p><span id="role"></span></p>
+    <p><span id="state"></span></p>
+    <table>
+      <tr>
+        <td style="border-top-style: none;border-left-style: none">
+          <button id="cell0" disabled=true></button>
+        </td>
+        <td style="border-top-style: none">
+          <button id="cell1" disabled=true></button>
+        </td>
+        <td style="border-top-style: none;border-right-style: none">
+          <button id="cell2" disabled=true></button>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-left-style: none">
+          <button id="cell3" disabled=true></button>
+        </td>
+        <td>
+          <button id="cell4" disabled=true></button>
+        </td>
+        <td style="border-right-style: none">
+          <button id="cell5" disabled=true></button>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-bottom-style: none;border-left-style: none">
+          <button id="cell6" disabled=true></button>
+        </td>
+        <td style="border-bottom-style: none">
+          <button id="cell7" disabled=true></button>
+        </td>
+        <td style="border-bottom-style: none;border-right-style: none">
+          <button id="cell8" disabled=true></button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
